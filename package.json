@@ -1,0 +1,21 @@
+{
+  "name": "automacao-codeceptjs-web",
+  "version": "1.0.0",
+  "description": "Projeto de automacao de testes para web com webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^7.7.7",
+    "codeceptjs": "^3.0.7",
+    "faker": "^5.5.3",
+    "webdriverio": "^7.7.8"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.1",
+    "mochawesome": "^6.2.2"
+  }
+}
